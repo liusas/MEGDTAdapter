@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MEGDTAdapter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MEGDTAdapter.'
+  s.summary          = 'A adapter of GDT for aggregation SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "this is a Mobiexchanger's advertise adapter, and we use it as a module"
 
   s.homepage         = 'https://github.com/刘峰/MEGDTAdapter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

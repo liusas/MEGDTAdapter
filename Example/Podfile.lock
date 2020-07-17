@@ -1,0 +1,16 @@
+PODS:
+  - MEGDTAdapter (0.1.0)
+
+DEPENDENCIES:
+  - MEGDTAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  MEGDTAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MEGDTAdapter: 83a895c3977fccb8ecb026d9e60b302f6e1a1766
+
+PODFILE CHECKSUM: 79bbf13ec19d870fd711995c4f72d358d9b72ee2
+
+COCOAPODS: 1.8.4
