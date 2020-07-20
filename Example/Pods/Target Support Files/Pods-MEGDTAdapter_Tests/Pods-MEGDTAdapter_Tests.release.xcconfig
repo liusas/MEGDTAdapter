@@ -1,7 +1,6 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MEGDTAdapter"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MEGDTAdapter/MEGDTAdapter.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "MEGDTAdapter"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GDTMobSDK" "${PODS_ROOT}/Headers/Public/MEAdvSDK" "${PODS_ROOT}/Headers/Public/MEGDTAdapter" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/Realm" $(SDKROOT)/usr/include/libxml2
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"xml2" -l"z" -framework "AVFoundation" -framework "AdSupport" -framework "CoreLocation" -framework "CoreTelephony" -framework "QuartzCore" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

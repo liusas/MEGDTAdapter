@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3711E58ED668C8CA8F79A464EEA84C /* MEGDTCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4941469B2E1895F76815EDCBF7DE16EC /* MEGDTCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		500A229F1A0CCD4871ECEDA5021E6BEC /* MEGDTFeedRenderAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55D8D2851CDC875022E0CBCC2BAE0758 /* MEGDTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF130B14613241FFABC9C95C2815DF71 /* MEGDTAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */; };
+		F8470A2321BAFF10C5F0C066B619FC37 /* MEGDTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F8F7C1BE304EABC29538C565046A5B40 /* MEGDTFeedRenderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9F1B6EE46400FD5E02F0666BBC9E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
+			remoteInfo = GDTMobSDK;
+		};
+		A27F3B9B7EC6CAFDD4F017F133FCA31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
+			remoteInfo = MEAdvSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTFeedRenderAdapter.m; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m; sourceTree = "<group>"; };
+		147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.xcconfig; sourceTree = "<group>"; };
+		1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTAdapter.m; path = MEGDTAdapter/Classes/MEGDTAdapter.m; sourceTree = "<group>"; };
+		300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEGDTAdapter-dummy.m"; sourceTree = "<group>"; };
+		3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MEGDTCustomView.m; sourceTree = "<group>"; };
+		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMEGDTAdapter.a; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MEGDTCustomView.h; sourceTree = "<group>"; };
+		57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
+		685526767099BAF48A924B3E54F98D04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTFeedRenderAdapter.h; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h; sourceTree = "<group>"; };
+		99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
+		9FD9BBA199CF02DFBD5B366945086C56 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0A7EB74305B4C20B860D21C5197164A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTAdapter.h; path = MEGDTAdapter/Classes/MEGDTAdapter.h; sourceTree = "<group>"; };
+		F857399484FAF730DC27CDE3DFD34E52 /* MEGDTAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEGDTAdapter-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9F6205EC9DF4F1F160A22831738729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1A50A956FB814D17694B7E188FC1D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311D61561D5507A970B8E8B3DC2A93B8 /* MEGDTAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */,
+				1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */,
+				93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */,
+				11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */,
+				6EB5A85755D5C6F9987745C3B323ED10 /* Pod */,
+				5C5B6E44F9B3F5ADEFF3862BBEAB4716 /* Support Files */,
+				B2C2818ABFDAC14CD76DC59CD306ED9F /* Views */,
+			);
+			name = MEGDTAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C5B6E44F9B3F5ADEFF3862BBEAB4716 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */,
+				300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */,
+				F857399484FAF730DC27CDE3DFD34E52 /* MEGDTAdapter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MEGDTAdapter";
+			sourceTree = "<group>";
+		};
+		6EB5A85755D5C6F9987745C3B323ED10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				685526767099BAF48A924B3E54F98D04 /* LICENSE */,
+				9FD9BBA199CF02DFBD5B366945086C56 /* MEGDTAdapter.podspec */,
+				B0A7EB74305B4C20B860D21C5197164A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		70EFE169863BD2C9E4FC74CE9853C570 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */,
+				99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		9A2B0B33C4415DB8FEA22F8DFB324AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C2818ABFDAC14CD76DC59CD306ED9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */,
+				3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */,
+			);
+			name = Views;
+			path = MEGDTAdapter/Classes/Views;
+			sourceTree = "<group>";
+		};
+		FEEF973FD85984507D472E5D0ABFD396 = {
+			isa = PBXGroup;
+			children = (
+				70EFE169863BD2C9E4FC74CE9853C570 /* Dependencies */,
+				0F1A50A956FB814D17694B7E188FC1D4 /* Frameworks */,
+				311D61561D5507A970B8E8B3DC2A93B8 /* MEGDTAdapter */,
+				9A2B0B33C4415DB8FEA22F8DFB324AF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3F2140B0E31FEAF99470E57B3F2B4BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D8D2851CDC875022E0CBCC2BAE0758 /* MEGDTAdapter.h in Headers */,
+				1F3711E58ED668C8CA8F79A464EEA84C /* MEGDTCustomView.h in Headers */,
+				500A229F1A0CCD4871ECEDA5021E6BEC /* MEGDTFeedRenderAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ECE75D814BC4ADF9BD4594C4BC850445 /* MEGDTAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9B807126A0AA66A107F0F47DACA3AC /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */;
+			buildPhases = (
+				C3F2140B0E31FEAF99470E57B3F2B4BE /* Headers */,
+				08A4641E7539E8F6CF6F9E651C43DE37 /* Sources */,
+				3F9F6205EC9DF4F1F160A22831738729 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7E8F1792B924F7A1393C17EA4256AB /* PBXTargetDependency */,
+				DB06D7F03C749CEBBF64A1A765703D32 /* PBXTargetDependency */,
+			);
+			name = MEGDTAdapter;
+			productName = MEGDTAdapter;
+			productReference = 4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933AFFA52D2B83075C510C65BC915179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 6513DDCE1691C4E81129D97D1733CD36 /* Build configuration list for PBXProject "MEGDTAdapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEF973FD85984507D472E5D0ABFD396;
+			productRefGroup = 9A2B0B33C4415DB8FEA22F8DFB324AF1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
+				},
+				{
+					ProjectRef = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				ECE75D814BC4ADF9BD4594C4BC850445 /* MEGDTAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A4641E7539E8F6CF6F9E651C43DE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF130B14613241FFABC9C95C2815DF71 /* MEGDTAdapter-dummy.m in Sources */,
+				F8470A2321BAFF10C5F0C066B619FC37 /* MEGDTAdapter.m in Sources */,
+				4941469B2E1895F76815EDCBF7DE16EC /* MEGDTCustomView.m in Sources */,
+				F8F7C1BE304EABC29538C565046A5B40 /* MEGDTFeedRenderAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB06D7F03C749CEBBF64A1A765703D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEAdvSDK;
+			targetProxy = A27F3B9B7EC6CAFDD4F017F133FCA31E /* PBXContainerItemProxy */;
+		};
+		EF7E8F1792B924F7A1393C17EA4256AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDTMobSDK;
+			targetProxy = 0D9F1B6EE46400FD5E02F0666BBC9E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16DAF6E2CCAF2871FED181E2EAA572AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MEGDTAdapter/MEGDTAdapter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MEGDTAdapter;
+				PRODUCT_NAME = MEGDTAdapter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59EE522889EB98E777C082D199FA67C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		756F3FF336F83D3BE21F02799664E62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F794610EC5C69DF4232B3D8D81AC7D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MEGDTAdapter/MEGDTAdapter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MEGDTAdapter;
+				PRODUCT_NAME = MEGDTAdapter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6513DDCE1691C4E81129D97D1733CD36 /* Build configuration list for PBXProject "MEGDTAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EE522889EB98E777C082D199FA67C5 /* Debug */,
+				756F3FF336F83D3BE21F02799664E62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9B807126A0AA66A107F0F47DACA3AC /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAF6E2CCAF2871FED181E2EAA572AD /* Debug */,
+				F794610EC5C69DF4232B3D8D81AC7D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933AFFA52D2B83075C510C65BC915179 /* Project object */;
+}

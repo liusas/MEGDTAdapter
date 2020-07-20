@@ -1,0 +1,59 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  GDTMobSDK:
+    BUILD_SETTINGS_CHECKSUM:
+      GDTMobSDK: 3ada6734b66b677ae3a3a5a6116e47ac
+    CHECKSUM: 7cadef357ef98125c5fb4e3cb9e50f3afe7801f4
+    PROJECT_NAME: GDTMobSDK
+    SPECS:
+      - GDTMobSDK (4.10.19)
+      - GDTMobSDK/GDTMobSDK (4.10.19)
+  MEAdvSDK:
+    BUILD_SETTINGS_CHECKSUM:
+      MEAdvSDK: 8747ad686f58fa12abc9af4b0fa8ffe3
+    CHECKSUM: 861be5b363fa1fc4471709bfe26375daa55b5bb2
+    PROJECT_NAME: MEAdvSDK
+    SPECS:
+      - MEAdvSDK (0.1.4)
+  MEGDTAdapter:
+    BUILD_SETTINGS_CHECKSUM:
+      MEGDTAdapter: 4cb2e5b7cc54b28d9ede7f45d779d19b
+    CHECKSUM: 87d85ba96d0fd1a879e69912d86549356128f73a
+    FILES:
+      - "../../LICENSE"
+      - "../../MEGDTAdapter/Classes/MEGDTAdapter.h"
+      - "../../MEGDTAdapter/Classes/MEGDTAdapter.m"
+      - "../../MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h"
+      - "../../MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m"
+      - "../../MEGDTAdapter/Classes/Views/MEGDTCustomView.h"
+      - "../../MEGDTAdapter/Classes/Views/MEGDTCustomView.m"
+      - "../../README.md"
+    PROJECT_NAME: MEGDTAdapter
+    SPECS:
+      - MEGDTAdapter (0.1.0)
+  Pods-MEGDTAdapter_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 72977154113291c6c4ae2e55cdc4b7dd
+      Release: 72977154113291c6c4ae2e55cdc4b7dd
+  Pods-MEGDTAdapter_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: f3db3877eee7244b6d1c711805996365
+      Release: f3db3877eee7244b6d1c711805996365
+  Reachability:
+    BUILD_SETTINGS_CHECKSUM:
+      Reachability: 6fb325cbaedfe731700153966683b754
+    CHECKSUM: 33e18b67625424e47b6cde6d202dce689ad7af96
+    PROJECT_NAME: Reachability
+    SPECS:
+      - Reachability (3.2)
+  Realm:
+    BUILD_SETTINGS_CHECKSUM:
+      Realm: ced923823a7c6868fd8d917664a2abaa
+    CHECKSUM: 4eb04d7487bd43c0581256f40b424eafb711deff
+    PROJECT_NAME: Realm
+    SPECS:
+      - Realm (4.4.1)
+      - Realm/Headers (4.4.1)
+OBJECT_VERSION: 46

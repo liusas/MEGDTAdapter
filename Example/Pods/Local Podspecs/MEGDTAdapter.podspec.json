@@ -1,9 +1,9 @@
 {
   "name": "MEGDTAdapter",
   "version": "0.1.0",
-  "summary": "A short description of MEGDTAdapter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/刘峰/MEGDTAdapter",
+  "summary": "A adapter of GDT for aggregation SDK",
+  "description": "this is a Mobiexchanger's advertise adapter, and we use it as a module",
+  "homepage": "https://gitlab.ad-mex.com/Liusas/MEGDTAdapter.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "刘峰": "liufeng@mobiexchanger.com"
   },
   "source": {
-    "git": "https://github.com/刘峰/MEGDTAdapter.git",
+    "git": "https://gitlab.ad-mex.com/Liusas/MEGDTAdapter.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MEGDTAdapter/Classes/**/*"
+  "source_files": "MEGDTAdapter/Classes/**/*",
+  "dependencies": {
+    "GDTMobSDK": [
+      "~> 4.10.19"
+    ],
+    "MEAdvSDK": [
+      "0.1.4"
+    ]
+  }
 }

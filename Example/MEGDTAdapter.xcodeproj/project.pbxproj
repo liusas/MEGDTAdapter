@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		335AFC30AF984BBE791343C5 /* Pods_MEGDTAdapter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3563E7679AED335B88DFE5FF /* Pods_MEGDTAdapter_Example.framework */; };
+		4F6763053AC4EB999414210B /* libPods-MEGDTAdapter_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCDDEC59E3C4A17B66A0E8F /* libPods-MEGDTAdapter_Example.a */; };
+		546FDC08088112FA2AE99763 /* libPods-MEGDTAdapter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D146EE48B0227064D7F58925 /* libPods-MEGDTAdapter_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B915461EE24FDB93084B920A /* Pods_MEGDTAdapter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916FAA03AB308CD65FABD185 /* Pods_MEGDTAdapter_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DCDDEC59E3C4A17B66A0E8F /* libPods-MEGDTAdapter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEGDTAdapter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0CD96BF322EA52212676B1 /* Pods-MEGDTAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Tests/Pods-MEGDTAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F2A6EA0A7B20EBB18A84F25 /* Pods-MEGDTAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Tests.release.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Tests/Pods-MEGDTAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3563E7679AED335B88DFE5FF /* Pods_MEGDTAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEGDTAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MEGDTAdapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEGDTAdapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		659E425B1592E5E5DF1E27AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		916FAA03AB308CD65FABD185 /* Pods_MEGDTAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEGDTAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CE36FEB6DF7D3AFFEFF93F /* Pods-MEGDTAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Example.debug.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B78E52240E9D2BDD368DAC34 /* Pods-MEGDTAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Example.release.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA0838441B129F7683FFAD53 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MEGDTAdapter.podspec; path = ../MEGDTAdapter.podspec; sourceTree = "<group>"; };
+		D146EE48B0227064D7F58925 /* libPods-MEGDTAdapter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEGDTAdapter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F602D445441FDA250419796B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				335AFC30AF984BBE791343C5 /* Pods_MEGDTAdapter_Example.framework in Frameworks */,
+				4F6763053AC4EB999414210B /* libPods-MEGDTAdapter_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B915461EE24FDB93084B920A /* Pods_MEGDTAdapter_Tests.framework in Frameworks */,
+				546FDC08088112FA2AE99763 /* libPods-MEGDTAdapter_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3563E7679AED335B88DFE5FF /* Pods_MEGDTAdapter_Example.framework */,
-				916FAA03AB308CD65FABD185 /* Pods_MEGDTAdapter_Tests.framework */,
+				0DCDDEC59E3C4A17B66A0E8F /* libPods-MEGDTAdapter_Example.a */,
+				D146EE48B0227064D7F58925 /* libPods-MEGDTAdapter_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9357346E1DCB7F15BE2CED8D /* [CP] Embed Pods Frameworks */,
+				945C93960C1EEB288EE138DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,22 +317,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9357346E1DCB7F15BE2CED8D /* [CP] Embed Pods Frameworks */ = {
+		945C93960C1EEB288EE138DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MEGDTAdapter/MEGDTAdapter.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example-resources.sh",
+				"${PODS_ROOT}/MEAdvSDK/MEAdvSDK/Assets/Resource/MEAdvBundle.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MEGDTAdapter.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MEAdvBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A69097F57352A3811BD646CA /* [CP] Check Pods Manifest.lock */ = {

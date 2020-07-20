@@ -1,16 +1,40 @@
 PODS:
-  - MEGDTAdapter (0.1.0)
+  - GDTMobSDK (4.10.19):
+    - GDTMobSDK/GDTMobSDK (= 4.10.19)
+  - GDTMobSDK/GDTMobSDK (4.10.19)
+  - MEAdvSDK (0.1.4):
+    - Reachability
+    - Realm (= 4.4.1)
+  - MEGDTAdapter (0.1.0):
+    - GDTMobSDK (~> 4.10.19)
+    - MEAdvSDK (= 0.1.4)
+  - Reachability (3.2)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
 
 DEPENDENCIES:
   - MEGDTAdapter (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GDTMobSDK
+    - Reachability
+    - Realm
+  https://gitlab.ad-mex.com/app/Module_iOS.git:
+    - MEAdvSDK
 
 EXTERNAL SOURCES:
   MEGDTAdapter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MEGDTAdapter: 83a895c3977fccb8ecb026d9e60b302f6e1a1766
+  GDTMobSDK: 7cadef357ef98125c5fb4e3cb9e50f3afe7801f4
+  MEAdvSDK: 861be5b363fa1fc4471709bfe26375daa55b5bb2
+  MEGDTAdapter: 87d85ba96d0fd1a879e69912d86549356128f73a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
 
-PODFILE CHECKSUM: 79bbf13ec19d870fd711995c4f72d358d9b72ee2
+PODFILE CHECKSUM: dd029e9f3d6fd9564bdb5c98c8288e9cb5853239
 
 COCOAPODS: 1.8.4

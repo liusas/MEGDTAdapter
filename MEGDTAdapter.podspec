@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
 
   s.description      = "this is a Mobiexchanger's advertise adapter, and we use it as a module"
 
-  s.homepage         = 'https://github.com/刘峰/MEGDTAdapter'
+  s.homepage         = 'https://gitlab.ad-mex.com/Liusas/MEGDTAdapter.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '刘峰' => 'liufeng@mobiexchanger.com' }
-  s.source           = { :git => 'https://github.com/刘峰/MEGDTAdapter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitlab.ad-mex.com/Liusas/MEGDTAdapter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'MEGDTAdapter/Classes/**/*'
   
@@ -37,4 +37,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency "GDTMobSDK", "~> 4.10.19"
+  s.dependency "MEAdvSDK", '0.1.4'
+  
 end
