@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		659E425B1592E5E5DF1E27AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		659E425B1592E5E5DF1E27AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99CE36FEB6DF7D3AFFEFF93F /* Pods-MEGDTAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Example.debug.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B78E52240E9D2BDD368DAC34 /* Pods-MEGDTAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEGDTAdapter_Example.release.xcconfig"; path = "Target Support Files/Pods-MEGDTAdapter_Example/Pods-MEGDTAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BA0838441B129F7683FFAD53 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MEGDTAdapter.podspec; path = ../MEGDTAdapter.podspec; sourceTree = "<group>"; };
+		BA0838441B129F7683FFAD53 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MEGDTAdapter.podspec; path = ../MEGDTAdapter.podspec; sourceTree = "<group>"; };
 		D146EE48B0227064D7F58925 /* libPods-MEGDTAdapter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEGDTAdapter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F602D445441FDA250419796B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F602D445441FDA250419796B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				2D0CD96BF322EA52212676B1 /* Pods-MEGDTAdapter_Tests.debug.xcconfig */,
 				2F2A6EA0A7B20EBB18A84F25 /* Pods-MEGDTAdapter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MEGDTAdapter/MEGDTAdapter-Prefix.pch";
 				INFOPLIST_FILE = "MEGDTAdapter/MEGDTAdapter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MEGDTAdapter/MEGDTAdapter-Prefix.pch";
 				INFOPLIST_FILE = "MEGDTAdapter/MEGDTAdapter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
