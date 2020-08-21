@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MEGDTAdapter'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A adapter of GDT for mediation SDK'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/liusas/MEGDTAdapter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'MEGDTAdapter/Classes/**/*'
   
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency "GDTMobSDK", "~> 4.10.19"
-  s.dependency "MEAdvSDK", '0.1.4'
+  s.dependency "MEAdvSDK", '~> 1.0.0'
   
 end

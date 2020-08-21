@@ -128,8 +128,8 @@
         // 拉取到广告数据, 初始化视图
         [self initCustomAdView];
         
-        if (self.feedDelegate && [self.feedDelegate respondsToSelector:@selector(adapterFeedLoadSuccess:feedView:)]) {
-            [self.feedDelegate adapterFeedLoadSuccess:self feedView:nil];
+        if (self.feedDelegate && [self.feedDelegate respondsToSelector:@selector(adapterFeedLoadSuccess:feedViews:)]) {
+            [self.feedDelegate adapterFeedLoadSuccess:self feedViews:nil];
         }
         
         // 上报日志
