@@ -30,6 +30,9 @@
 /// 是否需要展示
 @property (nonatomic, assign) BOOL needShow;
 
+/// 用来弹出广告的 viewcontroller
+@property (nonatomic, strong) UIViewController *rootVC;
+
 @end
 
 @implementation MEGDTAdapter
@@ -98,8 +101,21 @@
 }
 
 - (void)showInterstitialFromViewController:(UIViewController *)rootVC posid:(NSString *)posid {
+    if (rootVC) {
+        self.rootVC = rootVC;
+    }
+    
     if (self.interstitial.isAdValid) {
         [self.interstitial presentAdFromRootViewController:rootVC];
+    }
+}
+
+- (void)stopInterstitialWithPosid:(NSString *)posid {
+    self.needShow = NO;
+    if (self.interstitial.isAdValid) {
+        if (self.rootVC) {
+            [self.rootVC dismissViewControllerAnimated:YES completion:nil];
+        }
     }
 }
 
@@ -178,6 +194,10 @@
 }
 
 - (void)showRewardedVideoFromViewController:(UIViewController *)rootVC posid:(NSString *)posid {
+    if (rootVC) {
+        self.rootVC = rootVC;
+    }
+    
     if (self.isTheVideoPlaying == NO && self.rewardVideoAd.adValid) {
         [self.rewardVideoAd showAdFromRootViewController:rootVC];
     }
@@ -187,14 +207,33 @@
 - (void)stopCurrentVideo {
     self.needShow = NO;
     if (self.rewardVideoAd.adValid) {
-        UIViewController *topVC = [self topVC];
-        [topVC dismissViewControllerAnimated:YES completion:nil];
-//        self.rewardVideoAd = nil;
+        if (self.rootVC) {
+            [self.rootVC dismissViewControllerAnimated:YES completion:nil];
+        }
     }
 }
 
 - (BOOL)hasRewardedVideoAvailableWithPosid:(NSString *)posid {
     return self.rewardVideoAd.adValid;
+}
+
+// MARK: - 全屏视频广告
+/// 加载全屏视频
+- (BOOL)loadFullscreenWithPosid:(NSString *)posid {
+    return NO;
+}
+
+/// 展示全屏视频
+- (void)showFullscreenVideoFromViewController:(UIViewController *)rootVC posid:(NSString *)posid {
+}
+
+/// 关闭当前视频
+- (void)stopFullscreenVideoWithPosid:(NSString *)posid {
+}
+
+/// 全屏视频是否有效
+- (BOOL)hasFullscreenVideoAvailableWithPosid:(NSString *)posid {
+    return NO;
 }
 
 // MARK: - GDTNativeExpressAdDelegete
@@ -443,6 +482,7 @@
 }
 
 - (void)gdt_rewardVideoAdDidClose:(GDTRewardVideoAd *)rewardedVideoAd {
+    self.rootVC = nil;
     if (self.videoDelegate && [self.videoDelegate respondsToSelector:@selector(adapterVideoClose:)]) {
         [self.videoDelegate adapterVideoClose:self];
     }
@@ -473,6 +513,8 @@
 }
 
 - (void)gdt_rewardVideoAd:(GDTRewardVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error {
+    self.rootVC = nil;
+    
     if (error.code == 4014) {
         DLog(@"请拉取到广告后再调用展示接口");
     } else if (error.code == 4016) {
@@ -679,6 +721,8 @@
  *  当接收服务器返回的广告数据失败后调用该函数
  */
 - (void)unifiedInterstitialFailToLoadAd:(GDTUnifiedInterstitialAd *)unifiedInterstitial error:(NSError *)error {
+    self.rootVC = nil;
+    
     if (self.needShow) {
         if (self.interstitialDelegate && [self.interstitialDelegate respondsToSelector:@selector(adapter:interstitialLoadFailure:)]) {
             [self.interstitialDelegate adapter:self interstitialLoadFailure:error];
@@ -738,6 +782,8 @@
  *  插屏2.0广告展示结束回调该函数
  */
 - (void)unifiedInterstitialDidDismissScreen:(GDTUnifiedInterstitialAd *)unifiedInterstitial {
+    self.rootVC = nil;
+    
     if (self.interstitialDelegate && [self.interstitialDelegate respondsToSelector:@selector(adapterInterstitialCloseFinished:)]) {
         [self.interstitialDelegate adapterInterstitialCloseFinished:self];
     }
@@ -748,6 +794,7 @@
 }
 
 - (void)unifiedInterstitialFailToPresent:(GDTUnifiedInterstitialAd *)unifiedInterstitial error:(NSError *)error {
+    self.rootVC = nil;
     DLog(@"插屏广告展示失败 error = %@", error);
     if (self.needShow) {
         if (self.interstitialDelegate && [self.interstitialDelegate respondsToSelector:@selector(adapter:interstitialLoadFailure:)]) {
