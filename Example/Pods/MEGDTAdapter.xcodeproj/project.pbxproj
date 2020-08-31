@@ -7,59 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F3711E58ED668C8CA8F79A464EEA84C /* MEGDTCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4941469B2E1895F76815EDCBF7DE16EC /* MEGDTCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		500A229F1A0CCD4871ECEDA5021E6BEC /* MEGDTFeedRenderAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55D8D2851CDC875022E0CBCC2BAE0758 /* MEGDTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF130B14613241FFABC9C95C2815DF71 /* MEGDTAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */; };
-		F8470A2321BAFF10C5F0C066B619FC37 /* MEGDTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F8F7C1BE304EABC29538C565046A5B40 /* MEGDTFeedRenderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21E79E1580DFAF3ED186ED58271A77A2 /* MEGDTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35F294C7A52C8CFC6907E3AD7C0911DE /* MEGDTFeedRenderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60EACD65B2D46F877F1FFC2F604BF9C4 /* MEGDTCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93469F3126D29314A8C8A324D1FF8FA2 /* MEGDTCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CBD514F47770EB0D6AF3BAFCF2435D0 /* MEGDTAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */; };
+		E21FCC0621C747146BCBB9352B055123 /* MEGDTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E29EBB1C1183635EBD93FE6B3994960D /* MEGDTFeedRenderAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0360A9DA24C5AA6700DBA640 /* PBXContainerItemProxy */ = {
+		03EDC70F24FCEE0200D5CB97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 			proxyType = 2;
 			remoteGlobalIDString = 04F266C99B08DD454D7A13D9FBCD89AB;
 			remoteInfo = MEAdvSDK;
 		};
-		0D9F1B6EE46400FD5E02F0666BBC9E2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
-			remoteInfo = GDTMobSDK;
-		};
-		A27F3B9B7EC6CAFDD4F017F133FCA31E /* PBXContainerItemProxy */ = {
+		497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 			proxyType = 1;
 			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
 			remoteInfo = MEAdvSDK;
 		};
+		B41E56A560AB45F3B9B95B53B6F8D075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
+			remoteInfo = GDTMobSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTFeedRenderAdapter.m; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m; sourceTree = "<group>"; };
-		147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.xcconfig; sourceTree = "<group>"; };
-		1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTAdapter.m; path = MEGDTAdapter/Classes/MEGDTAdapter.m; sourceTree = "<group>"; };
-		300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEGDTAdapter-dummy.m"; sourceTree = "<group>"; };
-		3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MEGDTCustomView.m; sourceTree = "<group>"; };
+		084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTAdapter.h; path = MEGDTAdapter/Classes/MEGDTAdapter.h; sourceTree = "<group>"; };
+		106DF3A0B73D66FA4406A6458B5B4163 /* MEGDTAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTFeedRenderAdapter.h; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h; sourceTree = "<group>"; };
 		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MEGDTCustomView.h; sourceTree = "<group>"; };
 		57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
-		685526767099BAF48A924B3E54F98D04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTFeedRenderAdapter.h; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h; sourceTree = "<group>"; };
+		5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEGDTAdapter-dummy.m"; sourceTree = "<group>"; };
+		8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MEGDTCustomView.m; sourceTree = "<group>"; };
 		99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
-		9FD9BBA199CF02DFBD5B366945086C56 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		B0A7EB74305B4C20B860D21C5197164A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTAdapter.h; path = MEGDTAdapter/Classes/MEGDTAdapter.h; sourceTree = "<group>"; };
-		F857399484FAF730DC27CDE3DFD34E52 /* MEGDTAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEGDTAdapter-prefix.pch"; sourceTree = "<group>"; };
+		A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTFeedRenderAdapter.m; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m; sourceTree = "<group>"; };
+		AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTAdapter.m; path = MEGDTAdapter/Classes/MEGDTAdapter.m; sourceTree = "<group>"; };
+		BED1EE66660AD809D2096EA6405C1EC9 /* MEGDTAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEGDTAdapter-prefix.pch"; sourceTree = "<group>"; };
+		C6B6D221CDD880CA83749FE5603362D4 /* MEGDTAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.release.xcconfig; sourceTree = "<group>"; };
+		D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MEGDTCustomView.h; sourceTree = "<group>"; };
+		DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F9F6205EC9DF4F1F160A22831738729 /* Frameworks */ = {
+		5C616279E9F1955281F44DF1232FCFA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,17 +70,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0360A9D624C5AA6500DBA640 /* Products */ = {
+		03EDC70724FCEDFD00D5CB97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0360A9D824C5AA6500DBA640 /* Products */ = {
+		03EDC70924FCEDFD00D5CB97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0360A9DB24C5AA6700DBA640 /* libMEAdvSDK.a */,
+				03EDC71024FCEE0200D5CB97 /* libMEAdvSDK.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,40 +92,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		311D61561D5507A970B8E8B3DC2A93B8 /* MEGDTAdapter */ = {
+		18E5939896C5AB2534B52EE24CC8E4AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B7C97375CE393941D48D08F5FD6AB494 /* MEGDTAdapter.h */,
-				1A605C5733B3636A074573E26B5E276F /* MEGDTAdapter.m */,
-				93E4949175CC25AF9755719CBE95536A /* MEGDTFeedRenderAdapter.h */,
-				11082C21B233AE2BE755AEC58DDB735A /* MEGDTFeedRenderAdapter.m */,
-				6EB5A85755D5C6F9987745C3B323ED10 /* Pod */,
-				5C5B6E44F9B3F5ADEFF3862BBEAB4716 /* Support Files */,
-				B2C2818ABFDAC14CD76DC59CD306ED9F /* Views */,
+				D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */,
+				8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */,
 			);
-			name = MEGDTAdapter;
-			path = ../..;
+			name = Views;
+			path = MEGDTAdapter/Classes/Views;
 			sourceTree = "<group>";
 		};
-		5C5B6E44F9B3F5ADEFF3862BBEAB4716 /* Support Files */ = {
+		3A78ABF298179D5C7F811E1BB76EEE07 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */,
-				300BE8EDCF9CF34EECD11078F562193E /* MEGDTAdapter-dummy.m */,
-				F857399484FAF730DC27CDE3DFD34E52 /* MEGDTAdapter-prefix.pch */,
+				5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */,
+				BED1EE66660AD809D2096EA6405C1EC9 /* MEGDTAdapter-prefix.pch */,
+				106DF3A0B73D66FA4406A6458B5B4163 /* MEGDTAdapter.debug.xcconfig */,
+				C6B6D221CDD880CA83749FE5603362D4 /* MEGDTAdapter.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MEGDTAdapter";
 			sourceTree = "<group>";
 		};
-		6EB5A85755D5C6F9987745C3B323ED10 /* Pod */ = {
+		56A7689FB23E20D7E9EB3EBF52FFF859 /* MEGDTAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				685526767099BAF48A924B3E54F98D04 /* LICENSE */,
-				9FD9BBA199CF02DFBD5B366945086C56 /* MEGDTAdapter.podspec */,
-				B0A7EB74305B4C20B860D21C5197164A /* README.md */,
+				084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */,
+				BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */,
+				38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */,
+				A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */,
+				8DA022FFEC8EB503484EE9A14FEAC267 /* Pod */,
+				3A78ABF298179D5C7F811E1BB76EEE07 /* Support Files */,
+				18E5939896C5AB2534B52EE24CC8E4AE /* Views */,
 			);
-			name = Pod;
+			name = MEGDTAdapter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		70EFE169863BD2C9E4FC74CE9853C570 /* Dependencies */ = {
@@ -136,6 +138,16 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
+		8DA022FFEC8EB503484EE9A14FEAC267 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */,
+				AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */,
+				DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9A2B0B33C4415DB8FEA22F8DFB324AF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,22 +156,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2C2818ABFDAC14CD76DC59CD306ED9F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				4EC6DE7BC5DDEDCF7310F52B2FFB81B5 /* MEGDTCustomView.h */,
-				3B339B067A0E91A6F4938D033059BD9C /* MEGDTCustomView.m */,
-			);
-			name = Views;
-			path = MEGDTAdapter/Classes/Views;
-			sourceTree = "<group>";
-		};
 		FEEF973FD85984507D472E5D0ABFD396 = {
 			isa = PBXGroup;
 			children = (
 				70EFE169863BD2C9E4FC74CE9853C570 /* Dependencies */,
 				0F1A50A956FB814D17694B7E188FC1D4 /* Frameworks */,
-				311D61561D5507A970B8E8B3DC2A93B8 /* MEGDTAdapter */,
+				56A7689FB23E20D7E9EB3EBF52FFF859 /* MEGDTAdapter */,
 				9A2B0B33C4415DB8FEA22F8DFB324AF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,13 +169,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C3F2140B0E31FEAF99470E57B3F2B4BE /* Headers */ = {
+		DE62F18714902C0E8879EE495FED52CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D8D2851CDC875022E0CBCC2BAE0758 /* MEGDTAdapter.h in Headers */,
-				1F3711E58ED668C8CA8F79A464EEA84C /* MEGDTCustomView.h in Headers */,
-				500A229F1A0CCD4871ECEDA5021E6BEC /* MEGDTFeedRenderAdapter.h in Headers */,
+				E21FCC0621C747146BCBB9352B055123 /* MEGDTAdapter.h in Headers */,
+				60EACD65B2D46F877F1FFC2F604BF9C4 /* MEGDTCustomView.h in Headers */,
+				E29EBB1C1183635EBD93FE6B3994960D /* MEGDTFeedRenderAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,17 +184,17 @@
 /* Begin PBXNativeTarget section */
 		ECE75D814BC4ADF9BD4594C4BC850445 /* MEGDTAdapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A9B807126A0AA66A107F0F47DACA3AC /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */;
+			buildConfigurationList = 163B9C924117D659AF7B6B8FFB453BD2 /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */;
 			buildPhases = (
-				C3F2140B0E31FEAF99470E57B3F2B4BE /* Headers */,
-				08A4641E7539E8F6CF6F9E651C43DE37 /* Sources */,
-				3F9F6205EC9DF4F1F160A22831738729 /* Frameworks */,
+				DE62F18714902C0E8879EE495FED52CC /* Headers */,
+				12EE7BC82C72A6A9D7E2123293475F47 /* Sources */,
+				5C616279E9F1955281F44DF1232FCFA5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF7E8F1792B924F7A1393C17EA4256AB /* PBXTargetDependency */,
-				DB06D7F03C749CEBBF64A1A765703D32 /* PBXTargetDependency */,
+				C9A4B5C71B70831A28EB8CC4158E170C /* PBXTargetDependency */,
+				961AC53E91FBE6D70AB4343BBACE2B7B /* PBXTargetDependency */,
 			);
 			name = MEGDTAdapter;
 			productName = MEGDTAdapter;
@@ -221,11 +223,11 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0360A9D624C5AA6500DBA640 /* Products */;
+					ProductGroup = 03EDC70724FCEDFD00D5CB97 /* Products */;
 					ProjectRef = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
 				},
 				{
-					ProductGroup = 0360A9D824C5AA6500DBA640 /* Products */;
+					ProductGroup = 03EDC70924FCEDFD00D5CB97 /* Products */;
 					ProjectRef = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 				},
 			);
@@ -237,46 +239,46 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0360A9DB24C5AA6700DBA640 /* libMEAdvSDK.a */ = {
+		03EDC71024FCEE0200D5CB97 /* libMEAdvSDK.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMEAdvSDK.a;
-			remoteRef = 0360A9DA24C5AA6700DBA640 /* PBXContainerItemProxy */;
+			remoteRef = 03EDC70F24FCEE0200D5CB97 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08A4641E7539E8F6CF6F9E651C43DE37 /* Sources */ = {
+		12EE7BC82C72A6A9D7E2123293475F47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF130B14613241FFABC9C95C2815DF71 /* MEGDTAdapter-dummy.m in Sources */,
-				F8470A2321BAFF10C5F0C066B619FC37 /* MEGDTAdapter.m in Sources */,
-				4941469B2E1895F76815EDCBF7DE16EC /* MEGDTCustomView.m in Sources */,
-				F8F7C1BE304EABC29538C565046A5B40 /* MEGDTFeedRenderAdapter.m in Sources */,
+				9CBD514F47770EB0D6AF3BAFCF2435D0 /* MEGDTAdapter-dummy.m in Sources */,
+				21E79E1580DFAF3ED186ED58271A77A2 /* MEGDTAdapter.m in Sources */,
+				93469F3126D29314A8C8A324D1FF8FA2 /* MEGDTCustomView.m in Sources */,
+				35F294C7A52C8CFC6907E3AD7C0911DE /* MEGDTFeedRenderAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DB06D7F03C749CEBBF64A1A765703D32 /* PBXTargetDependency */ = {
+		961AC53E91FBE6D70AB4343BBACE2B7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MEAdvSDK;
-			targetProxy = A27F3B9B7EC6CAFDD4F017F133FCA31E /* PBXContainerItemProxy */;
+			targetProxy = 497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */;
 		};
-		EF7E8F1792B924F7A1393C17EA4256AB /* PBXTargetDependency */ = {
+		C9A4B5C71B70831A28EB8CC4158E170C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GDTMobSDK;
-			targetProxy = 0D9F1B6EE46400FD5E02F0666BBC9E2F /* PBXContainerItemProxy */;
+			targetProxy = B41E56A560AB45F3B9B95B53B6F8D075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16DAF6E2CCAF2871FED181E2EAA572AD /* Debug */ = {
+		5378640D182D0E6888E4D2A28BCC3F86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */;
+			baseConfigurationReference = C6B6D221CDD880CA83749FE5603362D4 /* MEGDTAdapter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -295,8 +297,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		59EE522889EB98E777C082D199FA67C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -421,9 +424,9 @@
 			};
 			name = Release;
 		};
-		F794610EC5C69DF4232B3D8D81AC7D87 /* Release */ = {
+		BC81FCDA9ABDEEB2942A391483F0605B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147393B8732BE93C46FE045121F93733 /* MEGDTAdapter.xcconfig */;
+			baseConfigurationReference = 106DF3A0B73D66FA4406A6458B5B4163 /* MEGDTAdapter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -442,27 +445,26 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		163B9C924117D659AF7B6B8FFB453BD2 /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC81FCDA9ABDEEB2942A391483F0605B /* Debug */,
+				5378640D182D0E6888E4D2A28BCC3F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6513DDCE1691C4E81129D97D1733CD36 /* Build configuration list for PBXProject "MEGDTAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59EE522889EB98E777C082D199FA67C5 /* Debug */,
 				756F3FF336F83D3BE21F02799664E62F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A9B807126A0AA66A107F0F47DACA3AC /* Build configuration list for PBXNativeTarget "MEGDTAdapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16DAF6E2CCAF2871FED181E2EAA572AD /* Debug */,
-				F794610EC5C69DF4232B3D8D81AC7D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

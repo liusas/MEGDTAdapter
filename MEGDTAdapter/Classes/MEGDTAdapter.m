@@ -93,11 +93,18 @@
     self.posid = posid;
     
     self.needShow = YES;
-    self.interstitial = [[GDTUnifiedInterstitialAd alloc] initWithAppId:[MEAdNetworkManager getAppidFromAgentType:self.platformType] placementId:posid];
-    self.interstitial.delegate = self;
-    self.interstitial.videoMuted = YES; // 设置视频是否Mute静音
-    self.interstitial.videoAutoPlayOnWWAN = NO; // 设置视频是否在非 WiFi 网络自动播放
-    [self.interstitial loadAd];
+    
+    if ([self hasInterstitialAvailableWithPosid:posid]) {
+        self.interstitial.delegate = self;
+        [self.interstitial loadAd];
+    } else {
+        self.interstitial = [[GDTUnifiedInterstitialAd alloc] initWithAppId:[MEAdNetworkManager getAppidFromAgentType:self.platformType] placementId:posid];
+        self.interstitial.delegate = self;
+        self.interstitial.videoMuted = YES; // 设置视频是否Mute静音
+        self.interstitial.videoAutoPlayOnWWAN = NO; // 设置视频是否在非 WiFi 网络自动播放
+        [self.interstitial loadAd];
+    }
+    
 }
 
 - (void)showInterstitialFromViewController:(UIViewController *)rootVC posid:(NSString *)posid {
@@ -186,9 +193,16 @@
     }
 
     self.needShow = YES;
-    self.rewardVideoAd = [[GDTRewardVideoAd alloc] initWithAppId:[MEAdNetworkManager getAppidFromAgentType:self.platformType] placementId:posid];//8020744212936426
-    self.rewardVideoAd.delegate = self;
-    [self.rewardVideoAd loadAd];
+    
+    
+    if ([self hasRewardedVideoAvailableWithPosid:posid]) {
+        self.rewardVideoAd.delegate = self;
+        [self.rewardVideoAd loadAd];
+    } else {
+        self.rewardVideoAd = [[GDTRewardVideoAd alloc] initWithAppId:[MEAdNetworkManager getAppidFromAgentType:self.platformType] placementId:posid];//8020744212936426
+        self.rewardVideoAd.delegate = self;
+        [self.rewardVideoAd loadAd];
+    }
     
     return YES;
 }
@@ -449,7 +463,7 @@
         return;
     }
     
-    if (self.videoDelegate && [self.videoDelegate respondsToSelector:@selector(adapterVideoDidDownload:)]) {
+    if (self.needShow && self.videoDelegate && [self.videoDelegate respondsToSelector:@selector(adapterVideoDidDownload:)]) {
         [self.videoDelegate adapterVideoDidDownload:self];
     }
     

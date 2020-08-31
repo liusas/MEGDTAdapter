@@ -30,8 +30,8 @@
 - (void)adapterFeedCacheGetFailed:(NSError *)error;
 @required
 /// 广告加载成功
-- (void)adapterFeedLoadSuccess:(MEBaseAdapter *)adapter feedView:(UIView *)feedView;
-/// 展现FeedView成功
+- (void)adapterFeedLoadSuccess:(MEBaseAdapter *)adapter feedViews:(NSArray *)feedViews;
+/// 展现FeedView成功,在拉取多个 feedview 时会调用多次
 - (void)adapterFeedShowSuccess:(MEBaseAdapter *)adapter feedView:(UIView *)feedView;
 /// 展示自渲染FeedView成功,需要手动设置其各控件的布局
 - (void)adapterFeedRenderShowSuccess:(MEBaseAdapter *)adapter feedView:(GDTUnifiedNativeAdView *)feedView;
@@ -48,7 +48,8 @@
 
 /// 广告加载成功
 - (void)adapterVideoLoadSuccess:(MEBaseAdapter *)adapter;
-
+/// 视频缓存完成,建议在该回调后播放激励视频
+- (void)adapterVideoDidDownload:(MEBaseAdapter *)adapter;
 /// 展现video成功
 - (void)adapterVideoShowSuccess:(MEBaseAdapter *)adapter;
 
@@ -63,6 +64,33 @@
 
 /// video关闭事件
 - (void)adapterVideoClose:(MEBaseAdapter *)adapter;
+
+@end
+
+/// 激励视频回调
+@protocol MEBaseAdapterFullscreenVideoProtocol <NSObject>
+
+/// 广告加载成功
+- (void)adapterFullscreenVideoLoadSuccess:(MEBaseAdapter *)adapter;
+/// 视频缓存完成,建议在该回调后播放激励视频
+- (void)adapterFullscreenVideoDidDownload:(MEBaseAdapter *)adapter;
+/// 展现video成功
+- (void)adapterFullscreenVideoShowSuccess:(MEBaseAdapter *)adapter;
+
+/// 展现video失败
+- (void)adapter:(MEBaseAdapter *)adapter fullscreenShowFailure:(NSError *)error;
+
+/// 视频播放完毕回调
+- (void)adapterFullscreenVideoFinishPlay:(MEBaseAdapter *)adapter;
+
+/// video被点击
+- (void)adapterFullscreenVideoClicked:(MEBaseAdapter *)adapter;
+
+/// video关闭事件
+- (void)adapterFullscreenVideoClose:(MEBaseAdapter *)adapter;
+
+/// video 点击跳过
+- (void)adapterFullscreenVideoSkip:(MEBaseAdapter *)adapter;
 
 @end
 
@@ -119,6 +147,8 @@
 @property (nonatomic, weak) id<MEBaseAdapterSplashProtocol> splashDelegate;
 /// 插屏 回调代理
 @property (nonatomic, weak) id<MEBaseAdapterInterstitialProtocol> interstitialDelegate;
+/// 全屏 回调代理 
+@property (nonatomic, weak) id<MEBaseAdapterFullscreenVideoProtocol> fullscreenDelegate;
 
 /// 场景id,即自有posid
 @property (nonatomic, copy) NSString *sceneId;
@@ -149,13 +179,15 @@
 /// 显示信息流视图
 /// @param feedWidth 广告位宽度
 - (BOOL)showFeedViewWithWidth:(CGFloat)feedWidth
-                        posId:(NSString *)posId;
+                        posId:(NSString *)posId
+                        count:(NSInteger)count;
 
 /// 显示信息流视图
 /// @param feedWidth 广告位宽度
 /// @param displayTime 展示时长
 - (BOOL)showFeedViewWithWidth:(CGFloat)feedWidth
                         posId:(NSString *)posId
+                        count:(NSInteger)count
               withDisplayTime:(NSTimeInterval)displayTime;
 
 /// 移除信息流视图
@@ -173,27 +205,45 @@
 - (void)removeRenderFeedViewWithPosid:(NSString *)posid;
 
 // MARK: - 激励视频广告
-
+/// 激励视频是否有效
+- (BOOL)hasRewardedVideoAvailableWithPosid:(NSString *)posid;
+/// 加载激励视频
+- (BOOL)loadRewardVideoWithPosid:(NSString *)posid;
 /// 展示激励视频
-- (BOOL)showRewardVideoWithPosid:(NSString *)posid;
+- (void)showRewardedVideoFromViewController:(UIViewController *)rootVC posid:(NSString *)posid;
 
 /// 关闭当前视频
 - (void)stopCurrentVideoWithPosid:(NSString *)posid;
 
-// MARK: - 开屏广告
+// MARK: - 全屏视频广告
+/// 全屏视频是否有效
+- (BOOL)hasFullscreenVideoAvailableWithPosid:(NSString *)posid;
+/// 加载全屏视频
+- (BOOL)loadFullscreenWithPosid:(NSString *)posid;
+/// 展示全屏视频
+- (void)showFullscreenVideoFromViewController:(UIViewController *)rootVC posid:(NSString *)posid;
+/// 关闭当前视频
+- (void)stopFullscreenVideoWithPosid:(NSString *)posid;
 
+// MARK: - 开屏广告
+/// 预加载开屏广告
+- (void)preloadSplashWithPosid:(NSString *)posid;
 /// 展示开屏页
-- (BOOL)showSplashWithPosid:(NSString *)posid;
+- (BOOL)loadAndShowSplashWithPosid:(NSString *)posid;
 
 /// 展示带底部logo的开屏页
-- (BOOL)showSplashWithPosid:(NSString *)posid delay:(NSTimeInterval)delay bottomView:(UIView *)view;
+- (BOOL)loadAndShowSplashWithPosid:(NSString *)posid delay:(NSTimeInterval)delay bottomView:(UIView *)view;
 
 /// 停止开屏广告渲染,可能因为超时等原因
 - (void)stopSplashRenderWithPosid:(NSString *)posid;
 
 // MARK: - 插屏广告
+/// 激励视频是否有效
+- (BOOL)hasInterstitialAvailableWithPosid:(NSString *)posid;
+/// 加载插屏页
+- (BOOL)loadInterstitialWithPosid:(NSString *)posid;
 /// 展示插屏页
-- (BOOL)showInterstitialViewWithPosid:(NSString *)posid showFunnyBtn:(BOOL)showFunnyBtn;
+- (void)showInterstitialFromViewController:(UIViewController *)rootVC posid:(NSString *)posid;
 /// 停止插屏
 - (void)stopInterstitialWithPosid:(NSString *)posid;
 
@@ -204,6 +254,14 @@
 /// 当前广告平台类型
 @property (nonatomic, readonly) MEAdAgentType platformType;
 
+/// 展示广告的底层控制器
+@property (nonatomic, weak) UIViewController *topVC;
+/// 误点按钮
+@property (nonatomic, strong) MEFunnyButton *funnyButton;
+
+/// 此次广告的展示类别,有聚合协议传入
+@property (nonatomic, assign) NSInteger sortType;
+
 /// 信息流 回调代理
 @property (nonatomic, weak) id<MEBaseAdapterFeedProtocol> feedDelegate;
 /// 激励视频 回调代理
@@ -212,17 +270,13 @@
 @property (nonatomic, weak) id<MEBaseAdapterSplashProtocol> splashDelegate;
 /// 插屏 回调代理
 @property (nonatomic, weak) id<MEBaseAdapterInterstitialProtocol> interstitialDelegate;
-/// 展示广告的底层控制器
-@property (nonatomic, weak) UIViewController *topVC;
-/// 误点按钮
-@property (nonatomic, strong) MEFunnyButton *funnyButton;
+/// 全屏 回调代理
+@property (nonatomic, weak) id<MEBaseAdapterFullscreenVideoProtocol> fullscreenDelegate;
 
 /// 场景id,即自有posid
 @property (nonatomic, copy) NSString *sceneId;
 /// 广告位id
 @property (nonatomic, copy) NSString *posid;
-/// 此次广告的展示类别,有聚合协议传入
-@property (nonatomic, assign) NSInteger sortType;
 /// 判断是否为拉取广告缓存
 @property (nonatomic, assign) BOOL isGetForCache;
 /// 判断激励视频是否正在播放,防止同时播放两个激励视频

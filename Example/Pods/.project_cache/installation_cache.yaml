@@ -4,7 +4,9 @@ BUILD_CONFIGURATIONS:
 CACHE_KEYS:
   GDTMobSDK:
     BUILD_SETTINGS_CHECKSUM:
-      GDTMobSDK: 3ada6734b66b677ae3a3a5a6116e47ac
+      GDTMobSDK:
+        :debug: 3ada6734b66b677ae3a3a5a6116e47ac
+        :release: 3ada6734b66b677ae3a3a5a6116e47ac
     CHECKSUM: 7cadef357ef98125c5fb4e3cb9e50f3afe7801f4
     PROJECT_NAME: GDTMobSDK
     SPECS:
@@ -12,15 +14,19 @@ CACHE_KEYS:
       - GDTMobSDK/GDTMobSDK (4.10.19)
   MEAdvSDK:
     BUILD_SETTINGS_CHECKSUM:
-      MEAdvSDK: 8747ad686f58fa12abc9af4b0fa8ffe3
-    CHECKSUM: 861be5b363fa1fc4471709bfe26375daa55b5bb2
+      MEAdvSDK:
+        :debug: 8747ad686f58fa12abc9af4b0fa8ffe3
+        :release: 8747ad686f58fa12abc9af4b0fa8ffe3
+    CHECKSUM: c29b70b357e16a130bb31e26c680788765d4bb6f
     PROJECT_NAME: MEAdvSDK
     SPECS:
-      - MEAdvSDK (0.1.4)
+      - MEAdvSDK (1.0.1)
   MEGDTAdapter:
     BUILD_SETTINGS_CHECKSUM:
-      MEGDTAdapter: 4cb2e5b7cc54b28d9ede7f45d779d19b
-    CHECKSUM: 87d85ba96d0fd1a879e69912d86549356128f73a
+      MEGDTAdapter:
+        :debug: 4cb2e5b7cc54b28d9ede7f45d779d19b
+        :release: 4cb2e5b7cc54b28d9ede7f45d779d19b
+    CHECKSUM: 54a9c2c73c047db7d58be9667a5d64547bdb14c5
     FILES:
       - "../../LICENSE"
       - "../../MEGDTAdapter/Classes/MEGDTAdapter.h"
@@ -32,28 +38,39 @@ CACHE_KEYS:
       - "../../README.md"
     PROJECT_NAME: MEGDTAdapter
     SPECS:
-      - MEGDTAdapter (0.1.0)
+      - MEGDTAdapter (1.0.1)
   Pods-MEGDTAdapter_Example:
     BUILD_SETTINGS_CHECKSUM:
       Debug: 72977154113291c6c4ae2e55cdc4b7dd
       Release: 72977154113291c6c4ae2e55cdc4b7dd
+    FILES:
+      - "${PODS_ROOT}/MEAdvSDK/MEAdvSDK/Assets/Resource/MEAdvBundle.bundle"
+      - "${PODS_ROOT}/MEAdvSDK/MEAdvSDK/Assets/Resource/MobiPubSDK.bundle"
+      - "${PODS_ROOT}/MEAdvSDK/MEAdvSDK/Assets/Resource/MRAID.bundle"
   Pods-MEGDTAdapter_Tests:
     BUILD_SETTINGS_CHECKSUM:
       Debug: f3db3877eee7244b6d1c711805996365
       Release: f3db3877eee7244b6d1c711805996365
   Reachability:
     BUILD_SETTINGS_CHECKSUM:
-      Reachability: 6fb325cbaedfe731700153966683b754
+      Reachability:
+        :debug: 6fb325cbaedfe731700153966683b754
+        :release: 6fb325cbaedfe731700153966683b754
     CHECKSUM: 33e18b67625424e47b6cde6d202dce689ad7af96
     PROJECT_NAME: Reachability
     SPECS:
       - Reachability (3.2)
   Realm:
     BUILD_SETTINGS_CHECKSUM:
-      Realm: ced923823a7c6868fd8d917664a2abaa
+      Realm:
+        :debug: ced923823a7c6868fd8d917664a2abaa
+        :release: ced923823a7c6868fd8d917664a2abaa
     CHECKSUM: 4eb04d7487bd43c0581256f40b424eafb711deff
     PROJECT_NAME: Realm
     SPECS:
       - Realm (4.4.1)
       - Realm/Headers (4.4.1)
 OBJECT_VERSION: 46
+PLUGINS:
+  cocoapods-stats:
+    {}
