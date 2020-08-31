@@ -11,7 +11,7 @@
 #import <GDTRewardVideoAd.h>
 #import <GDTSplashAd.h>
 #import <GDTUnifiedInterstitialAd.h>
-#import "MEAdNetworkManager.h"
+#import <MEAdvSDK/MEAdNetworkManager.h>
 
 @interface MEGDTAdapter ()<GDTNativeExpressAdDelegete, GDTRewardedVideoAdDelegate, GDTSplashAdDelegate, GDTUnifiedInterstitialAdDelegate>
 
