@@ -8,7 +8,7 @@
 #import "MEGDTFeedRenderAdapter.h"
 #import <GDTUnifiedNativeAd.h>
 #import "MEGDTCustomView.h" // 自渲染的view
-#import "MEAdNetworkManager.h"
+#import <MEAdvSDK/MEAdNetworkManager.h>
 
 @interface MEGDTFeedRenderAdapter () <GDTUnifiedNativeAdDelegate, GDTUnifiedNativeAdViewDelegate>
 

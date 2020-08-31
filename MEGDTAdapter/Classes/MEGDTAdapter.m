@@ -105,6 +105,7 @@
         [self.interstitial loadAd];
     }
     
+    return YES;
 }
 
 - (void)showInterstitialFromViewController:(UIViewController *)rootVC posid:(NSString *)posid {
