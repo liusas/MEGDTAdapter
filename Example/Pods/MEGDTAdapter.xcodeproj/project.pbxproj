@@ -17,26 +17,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03EDC70F24FCEE0200D5CB97 /* PBXContainerItemProxy */ = {
+		2BC798820FE9DB7284BBF5CE3B83785B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
-			proxyType = 2;
-			remoteGlobalIDString = 04F266C99B08DD454D7A13D9FBCD89AB;
-			remoteInfo = MEAdvSDK;
-		};
-		497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
-			remoteInfo = MEAdvSDK;
-		};
-		B41E56A560AB45F3B9B95B53B6F8D075 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
+			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
 			remoteInfo = GDTMobSDK;
+		};
+		497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
+			remoteInfo = MEAdvSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,19 +37,19 @@
 		084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTAdapter.h; path = MEGDTAdapter/Classes/MEGDTAdapter.h; sourceTree = "<group>"; };
 		106DF3A0B73D66FA4406A6458B5B4163 /* MEGDTAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTFeedRenderAdapter.h; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h; sourceTree = "<group>"; };
-		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMEGDTAdapter.a; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
 		5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEGDTAdapter-dummy.m"; sourceTree = "<group>"; };
 		8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MEGDTCustomView.m; sourceTree = "<group>"; };
 		99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
 		A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTFeedRenderAdapter.m; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m; sourceTree = "<group>"; };
-		AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTAdapter.m; path = MEGDTAdapter/Classes/MEGDTAdapter.m; sourceTree = "<group>"; };
 		BED1EE66660AD809D2096EA6405C1EC9 /* MEGDTAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEGDTAdapter-prefix.pch"; sourceTree = "<group>"; };
 		C6B6D221CDD880CA83749FE5603362D4 /* MEGDTAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.release.xcconfig; sourceTree = "<group>"; };
 		D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MEGDTCustomView.h; sourceTree = "<group>"; };
-		DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,21 +63,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03EDC70724FCEDFD00D5CB97 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		03EDC70924FCEDFD00D5CB97 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				03EDC71024FCEE0200D5CB97 /* libMEAdvSDK.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0F1A50A956FB814D17694B7E188FC1D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +171,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C9A4B5C71B70831A28EB8CC4158E170C /* PBXTargetDependency */,
+				DCDB146A68322CA24286CA6EE0858E0A /* PBXTargetDependency */,
 				961AC53E91FBE6D70AB4343BBACE2B7B /* PBXTargetDependency */,
 			);
 			name = MEGDTAdapter;
@@ -223,11 +201,9 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 03EDC70724FCEDFD00D5CB97 /* Products */;
 					ProjectRef = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
 				},
 				{
-					ProductGroup = 03EDC70924FCEDFD00D5CB97 /* Products */;
 					ProjectRef = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 				},
 			);
@@ -237,16 +213,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		03EDC71024FCEE0200D5CB97 /* libMEAdvSDK.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMEAdvSDK.a;
-			remoteRef = 03EDC70F24FCEE0200D5CB97 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12EE7BC82C72A6A9D7E2123293475F47 /* Sources */ = {
@@ -268,10 +234,10 @@
 			name = MEAdvSDK;
 			targetProxy = 497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */;
 		};
-		C9A4B5C71B70831A28EB8CC4158E170C /* PBXTargetDependency */ = {
+		DCDB146A68322CA24286CA6EE0858E0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GDTMobSDK;
-			targetProxy = B41E56A560AB45F3B9B95B53B6F8D075 /* PBXContainerItemProxy */;
+			targetProxy = 2BC798820FE9DB7284BBF5CE3B83785B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,7 +384,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

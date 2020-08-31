@@ -12,60 +12,60 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11102CB81073EBEAFC5C41A13594AACB /* PBXContainerItemProxy */ = {
+		06DFAB11CD654454E75657D90998AF34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C63ADC8F66AF724BF20EF1135A90E2FD /* Reachability.xcodeproj */;
+			containerPortal = F8781375766D75854B5E38692A840CC0 /* Realm.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4AC9FBD7453D9D72102559C8F6B8AC;
+			remoteInfo = Realm;
+		};
+		6172D585E5AFCA345779BCEAA223ED7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143DE9D6560B720D9264E48510E6965F /* GDTMobSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
+			remoteInfo = GDTMobSDK;
+		};
+		9A8A60900EFE71BB0B7C524AD5830BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791297331E702FB8FE75CD9EC44DBA28 /* Reachability.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DA1EBD7850A215E94DBD19A247725F9F;
 			remoteInfo = Reachability;
 		};
-		2666D96E823632BDFAA7A614D3DBAB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA419772591819FC6CEC0680F0F09397 /* MEAdvSDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
-			remoteInfo = MEAdvSDK;
-		};
-		38DEEDD1A75318CC02B3137ED68FC8E9 /* PBXContainerItemProxy */ = {
+		9ACC6D702DCC6F1D14BE022E3E42611A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3876BC060C5D6594CE6D7235D154B1B1;
 			remoteInfo = "Pods-MEGDTAdapter_Example";
 		};
-		3EF6492C41DB602210F6953085B10024 /* PBXContainerItemProxy */ = {
+		B579C2CD4FA21878B0A57E210E0E8C25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8CD95D53309BE8492C7458359DB36A0F /* GDTMobSDK.xcodeproj */;
+			containerPortal = B71E75F03B202A004A129E7161B5BBCE /* MEAdvSDK.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
-			remoteInfo = GDTMobSDK;
+			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
+			remoteInfo = MEAdvSDK;
 		};
-		C200652D0FF921BEFBB3FDEB881CF562 /* PBXContainerItemProxy */ = {
+		E8B1CB92C22CEA97946D8C7E0907C8F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AC525A4348423A1284363171737E842D /* MEGDTAdapter.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = ECE75D814BC4ADF9BD4594C4BC850445;
 			remoteInfo = MEGDTAdapter;
 		};
-		ED8D7367DE00813770036A0555173B77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 473020727DE9D4B91ACD66FEB259A245 /* Realm.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BC4AC9FBD7453D9D72102559C8F6B8AC;
-			remoteInfo = Realm;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143DE9D6560B720D9264E48510E6965F /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
 		1592A483E893208D0E37C9BA07B483FD /* Pods-MEGDTAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEGDTAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15E35830B4ECAE91EC7769884BF17EA4 /* libPods-MEGDTAdapter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MEGDTAdapter_Tests.a"; path = "libPods-MEGDTAdapter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8F7F643EE544770CB7478C46C629E8 /* Pods-MEGDTAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEGDTAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		473020727DE9D4B91ACD66FEB259A245 /* Realm */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Realm; path = Realm.xcodeproj; sourceTree = "<group>"; };
 		4D9B8F505F5D32F83D2DB0CBAE006A58 /* Pods-MEGDTAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEGDTAdapter_Example-dummy.m"; sourceTree = "<group>"; };
 		56C1AAA9D93A05B855882A1F54E8FA6A /* libPods-MEGDTAdapter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MEGDTAdapter_Example.a"; path = "libPods-MEGDTAdapter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		612CE71E8A0BA4161199E8EE0EDB0638 /* Pods-MEGDTAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEGDTAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		612F4F3F85343F07C006B8B0BF03A959 /* Pods-MEGDTAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEGDTAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CD95D53309BE8492C7458359DB36A0F /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
+		791297331E702FB8FE75CD9EC44DBA28 /* Reachability */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Reachability; path = Reachability.xcodeproj; sourceTree = "<group>"; };
 		8D360D5FA0EA178D82F4FB42FE0826D4 /* Pods-MEGDTAdapter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEGDTAdapter_Example-resources.sh"; sourceTree = "<group>"; };
 		8EEA358A608B1706FB66D98927B413F8 /* Pods-MEGDTAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEGDTAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F111DDD7D936B36190942A02D8B92A4 /* Pods-MEGDTAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEGDTAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -73,9 +73,9 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC3F9D9C25215512EB110FFFEC906C6C /* Pods-MEGDTAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEGDTAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
 		AC525A4348423A1284363171737E842D /* MEGDTAdapter */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEGDTAdapter; path = MEGDTAdapter.xcodeproj; sourceTree = "<group>"; };
-		C63ADC8F66AF724BF20EF1135A90E2FD /* Reachability */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Reachability; path = Reachability.xcodeproj; sourceTree = "<group>"; };
-		EA419772591819FC6CEC0680F0F09397 /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
+		B71E75F03B202A004A129E7161B5BBCE /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
 		F3E14AFDF44BD05822128033F87D86BB /* Pods-MEGDTAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEGDTAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8781375766D75854B5E38692A840CC0 /* Realm */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Realm; path = Realm.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,24 +122,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B49107BD9B5AAFEDD7115B614FCFCC18 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8CD95D53309BE8492C7458359DB36A0F /* GDTMobSDK */,
-				EA419772591819FC6CEC0680F0F09397 /* MEAdvSDK */,
-				C63ADC8F66AF724BF20EF1135A90E2FD /* Reachability */,
-				473020727DE9D4B91ACD66FEB259A245 /* Realm */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9C537A35E550000CB0B18E3741662DD7 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				B49107BD9B5AAFEDD7115B614FCFCC18 /* Pods */,
+				ED1B370813E9C1F43042A8EB186F9C6D /* Pods */,
 				4C191468292972DF0F1A6B84E233FE16 /* Products */,
 				4E5AFFB9A3CD094A99A303DA2180A2E5 /* Targets Support Files */,
 			);
@@ -150,6 +139,17 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1B370813E9C1F43042A8EB186F9C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				143DE9D6560B720D9264E48510E6965F /* GDTMobSDK */,
+				B71E75F03B202A004A129E7161B5BBCE /* MEAdvSDK */,
+				791297331E702FB8FE75CD9EC44DBA28 /* Reachability */,
+				F8781375766D75854B5E38692A840CC0 /* Realm */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F19EF98AEA183FC9C67DD6CB11C3FFAC /* Pods-MEGDTAdapter_Example */ = {
@@ -210,11 +210,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				B9AF5A515D240A4A651780816D60912F /* PBXTargetDependency */,
-				3AFABA3BA64B5ACF02A81E11D158EC3B /* PBXTargetDependency */,
-				CA3F94E26CB6FDD1ACA19FBB0620FBC9 /* PBXTargetDependency */,
-				C187F80915CC7FF2EEFDDAACB28E298C /* PBXTargetDependency */,
-				5883427C35DC598A2406749E0F7EB41E /* PBXTargetDependency */,
+				B66A1924FF7BFA1E97560DE4CF9BF782 /* PBXTargetDependency */,
+				73BC83E292895669251494B679BA48BD /* PBXTargetDependency */,
+				62A0071AAD2979653C2C4617C6E77F5A /* PBXTargetDependency */,
+				07AAAFEA8798ACD9773112D23745E9E7 /* PBXTargetDependency */,
+				7D808F9FA5D605C092787D9B49DC5156 /* PBXTargetDependency */,
 			);
 			name = "Pods-MEGDTAdapter_Example";
 			productName = "Pods-MEGDTAdapter_Example";
@@ -232,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BBD7D3D43D9392478D0587B06E47008D /* PBXTargetDependency */,
+				31C1F89547860302E8C057BA6C917112 /* PBXTargetDependency */,
 			);
 			name = "Pods-MEGDTAdapter_Tests";
 			productName = "Pods-MEGDTAdapter_Tests";
@@ -261,19 +261,19 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = EA419772591819FC6CEC0680F0F09397 /* MEAdvSDK */;
+					ProjectRef = 143DE9D6560B720D9264E48510E6965F /* GDTMobSDK */;
 				},
 				{
-					ProjectRef = C63ADC8F66AF724BF20EF1135A90E2FD /* Reachability */;
-				},
-				{
-					ProjectRef = 473020727DE9D4B91ACD66FEB259A245 /* Realm */;
+					ProjectRef = B71E75F03B202A004A129E7161B5BBCE /* MEAdvSDK */;
 				},
 				{
 					ProjectRef = AC525A4348423A1284363171737E842D /* MEGDTAdapter */;
 				},
 				{
-					ProjectRef = 8CD95D53309BE8492C7458359DB36A0F /* GDTMobSDK */;
+					ProjectRef = 791297331E702FB8FE75CD9EC44DBA28 /* Reachability */;
+				},
+				{
+					ProjectRef = F8781375766D75854B5E38692A840CC0 /* Realm */;
 				},
 			);
 			projectRoot = "";
@@ -304,36 +304,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AFABA3BA64B5ACF02A81E11D158EC3B /* PBXTargetDependency */ = {
+		07AAAFEA8798ACD9773112D23745E9E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MEAdvSDK;
-			targetProxy = 2666D96E823632BDFAA7A614D3DBAB74 /* PBXContainerItemProxy */;
+			name = Reachability;
+			targetProxy = 9A8A60900EFE71BB0B7C524AD5830BD3 /* PBXContainerItemProxy */;
 		};
-		5883427C35DC598A2406749E0F7EB41E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Realm;
-			targetProxy = ED8D7367DE00813770036A0555173B77 /* PBXContainerItemProxy */;
-		};
-		B9AF5A515D240A4A651780816D60912F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GDTMobSDK;
-			targetProxy = 3EF6492C41DB602210F6953085B10024 /* PBXContainerItemProxy */;
-		};
-		BBD7D3D43D9392478D0587B06E47008D /* PBXTargetDependency */ = {
+		31C1F89547860302E8C057BA6C917112 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MEGDTAdapter_Example";
 			target = 3876BC060C5D6594CE6D7235D154B1B1 /* Pods-MEGDTAdapter_Example */;
-			targetProxy = 38DEEDD1A75318CC02B3137ED68FC8E9 /* PBXContainerItemProxy */;
+			targetProxy = 9ACC6D702DCC6F1D14BE022E3E42611A /* PBXContainerItemProxy */;
 		};
-		C187F80915CC7FF2EEFDDAACB28E298C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Reachability;
-			targetProxy = 11102CB81073EBEAFC5C41A13594AACB /* PBXContainerItemProxy */;
-		};
-		CA3F94E26CB6FDD1ACA19FBB0620FBC9 /* PBXTargetDependency */ = {
+		62A0071AAD2979653C2C4617C6E77F5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MEGDTAdapter;
-			targetProxy = C200652D0FF921BEFBB3FDEB881CF562 /* PBXContainerItemProxy */;
+			targetProxy = E8B1CB92C22CEA97946D8C7E0907C8F8 /* PBXContainerItemProxy */;
+		};
+		73BC83E292895669251494B679BA48BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEAdvSDK;
+			targetProxy = B579C2CD4FA21878B0A57E210E0E8C25 /* PBXContainerItemProxy */;
+		};
+		7D808F9FA5D605C092787D9B49DC5156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			targetProxy = 06DFAB11CD654454E75657D90998AF34 /* PBXContainerItemProxy */;
+		};
+		B66A1924FF7BFA1E97560DE4CF9BF782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GDTMobSDK;
+			targetProxy = 6172D585E5AFCA345779BCEAA223ED7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

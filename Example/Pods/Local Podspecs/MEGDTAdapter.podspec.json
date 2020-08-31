@@ -1,6 +1,6 @@
 {
   "name": "MEGDTAdapter",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "summary": "A adapter of GDT for mediation SDK",
   "description": "this is a Mobiexchanger's advertise adapter, and we use it as a module",
   "homepage": "https://github.com/liusas/MEGDTAdapter.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/liusas/MEGDTAdapter.git",
-    "tag": "1.0.1"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -24,7 +24,7 @@
       "~> 4.10.19"
     ],
     "MEAdvSDK": [
-      "~> 1.0.1"
+      "~> 1.0.2"
     ]
   }
 }
