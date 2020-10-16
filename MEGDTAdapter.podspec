@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MEGDTAdapter'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A adapter of GDT for mediation SDK'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,9 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+  
   s.source_files = 'MEGDTAdapter/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,7 +39,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency "GDTMobSDK", "~> 4.10.19"
-  s.dependency "MEAdvSDK", '~> 1.0.2'
+  s.dependency "GDTMobSDK", "~> 4.11.11"
+  s.dependency "MEAdvSDK", '~> 1.0.4'
   
 end

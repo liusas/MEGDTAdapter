@@ -8,25 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		21E79E1580DFAF3ED186ED58271A77A2 /* MEGDTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		35F294C7A52C8CFC6907E3AD7C0911DE /* MEGDTFeedRenderAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		60EACD65B2D46F877F1FFC2F604BF9C4 /* MEGDTCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93469F3126D29314A8C8A324D1FF8FA2 /* MEGDTCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9CBD514F47770EB0D6AF3BAFCF2435D0 /* MEGDTAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */; };
 		E21FCC0621C747146BCBB9352B055123 /* MEGDTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E29EBB1C1183635EBD93FE6B3994960D /* MEGDTFeedRenderAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		03BCC25A25382A51007C018B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
+			proxyType = 2;
+			remoteGlobalIDString = 04F266C99B08DD454D7A13D9FBCD89AB;
+			remoteInfo = MEAdvSDK;
+		};
 		2BC798820FE9DB7284BBF5CE3B83785B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK.xcodeproj */;
+			containerPortal = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A3CFDC0A2AD044C744F8B75288D67F4;
 			remoteInfo = GDTMobSDK;
 		};
 		497BDD3BCD12808A67CDF85A86113395 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK.xcodeproj */;
+			containerPortal = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 			proxyType = 1;
 			remoteGlobalIDString = 2B1A12BF7022690FC3855E7A43566AAC;
 			remoteInfo = MEAdvSDK;
@@ -36,20 +41,18 @@
 /* Begin PBXFileReference section */
 		084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTAdapter.h; path = MEGDTAdapter/Classes/MEGDTAdapter.h; sourceTree = "<group>"; };
 		106DF3A0B73D66FA4406A6458B5B4163 /* MEGDTAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.debug.xcconfig; sourceTree = "<group>"; };
-		38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MEGDTFeedRenderAdapter.h; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.h; sourceTree = "<group>"; };
-		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMEGDTAdapter.a; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4279951F0C57A288BF59032103DECDF0 /* libMEGDTAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEGDTAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GDTMobSDK; path = GDTMobSDK.xcodeproj; sourceTree = "<group>"; };
 		5D5E0ECB5D2789EF97FBD754CF96F9B1 /* MEGDTAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MEGDTAdapter-dummy.m"; sourceTree = "<group>"; };
 		8A921AD7DDF417B65595C26DA5CC53DF /* MEGDTCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MEGDTCustomView.m; sourceTree = "<group>"; };
 		99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEAdvSDK; path = MEAdvSDK.xcodeproj; sourceTree = "<group>"; };
-		A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTFeedRenderAdapter.m; path = MEGDTAdapter/Classes/MEGDTFeedRenderAdapter.m; sourceTree = "<group>"; };
-		AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB58862DFF77D412566326F0F25930F9 /* MEGDTAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MEGDTAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MEGDTAdapter.m; path = MEGDTAdapter/Classes/MEGDTAdapter.m; sourceTree = "<group>"; };
 		BED1EE66660AD809D2096EA6405C1EC9 /* MEGDTAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MEGDTAdapter-prefix.pch"; sourceTree = "<group>"; };
 		C6B6D221CDD880CA83749FE5603362D4 /* MEGDTAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MEGDTAdapter.release.xcconfig; sourceTree = "<group>"; };
 		D50F341A3CBCAF7E3592B5CC96CA2987 /* MEGDTCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MEGDTCustomView.h; sourceTree = "<group>"; };
-		DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA7E84DC8B16AFB3CBA93646B1924F1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE671BFD69BCBE13F09FFA2C20992BF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03BCC24925382A0B007C018B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BCC24B25382A0B007C018B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BCC25B25382A51007C018B /* libMEAdvSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0F1A50A956FB814D17694B7E188FC1D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +115,6 @@
 			children = (
 				084C31690B211AE52941BC12CD26F897 /* MEGDTAdapter.h */,
 				BAC8B0BFE9DBEB8D77C4D75E3385B171 /* MEGDTAdapter.m */,
-				38FB9F8EA04C18D654E44A2ECCC6253D /* MEGDTFeedRenderAdapter.h */,
-				A0BBEC821F45F5AE522B99DA15BD6902 /* MEGDTFeedRenderAdapter.m */,
 				8DA022FFEC8EB503484EE9A14FEAC267 /* Pod */,
 				3A78ABF298179D5C7F811E1BB76EEE07 /* Support Files */,
 				18E5939896C5AB2534B52EE24CC8E4AE /* Views */,
@@ -153,7 +169,6 @@
 			files = (
 				E21FCC0621C747146BCBB9352B055123 /* MEGDTAdapter.h in Headers */,
 				60EACD65B2D46F877F1FFC2F604BF9C4 /* MEGDTCustomView.h in Headers */,
-				E29EBB1C1183635EBD93FE6B3994960D /* MEGDTFeedRenderAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,9 +216,11 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 03BCC24925382A0B007C018B /* Products */;
 					ProjectRef = 57C5A6318EF267CE0FD7137D0D99D0DC /* GDTMobSDK */;
 				},
 				{
+					ProductGroup = 03BCC24B25382A0B007C018B /* Products */;
 					ProjectRef = 99D086DE1B6640278CDEDAB34E4EF1DA /* MEAdvSDK */;
 				},
 			);
@@ -214,6 +231,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		03BCC25B25382A51007C018B /* libMEAdvSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMEAdvSDK.a;
+			remoteRef = 03BCC25A25382A51007C018B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12EE7BC82C72A6A9D7E2123293475F47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,7 +249,6 @@
 				9CBD514F47770EB0D6AF3BAFCF2435D0 /* MEGDTAdapter-dummy.m in Sources */,
 				21E79E1580DFAF3ED186ED58271A77A2 /* MEGDTAdapter.m in Sources */,
 				93469F3126D29314A8C8A324D1FF8FA2 /* MEGDTCustomView.m in Sources */,
-				35F294C7A52C8CFC6907E3AD7C0911DE /* MEGDTFeedRenderAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,8 +410,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
