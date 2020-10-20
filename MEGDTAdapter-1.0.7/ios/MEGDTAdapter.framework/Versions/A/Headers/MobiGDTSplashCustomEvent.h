@@ -5,6 +5,8 @@
 //  Created by 刘峰 on 2020/9/27.
 //
 
+#import "MobiSplashCustomEvent.h"
+
 #if __has_include(<MEAdvSDK/MobiPub.h>)
 #import <MEAdvSDK/MobiPub.h>
 #else
