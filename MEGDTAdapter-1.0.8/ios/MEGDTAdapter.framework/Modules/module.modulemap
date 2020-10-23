@@ -1,0 +1,6 @@
+framework module MEGDTAdapter {
+  umbrella header "MEGDTAdapter.h"
+
+  export *
+  module * { export * }
+}

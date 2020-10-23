@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MEGDTAdapter'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A adapter of GDT for mediation SDK'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   
   
   s.source_files = 'MEGDTAdapter/Classes/**/*'
+#  s.vendored_framework = 'MEGDTAdapter-1.0.8/ios/*.framework'
   
   # s.resource_bundles = {
   #   'MEGDTAdapter' => ['MEGDTAdapter/Assets/*.png']
@@ -40,6 +41,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency "GDTMobSDK", "~> 4.11.11"
-  s.dependency "MEAdvSDK", '~> 1.0.4'
+  s.dependency "MEAdvSDK", '~> 1.0.13'
   
 end

@@ -32,6 +32,7 @@
     NSString *adUnitId = [info objectForKey:@"adunit"];
     UIView *bottomView = [info objectForKey:@"bottomView"];
     NSTimeInterval delay = [[info objectForKey:@"delay"] floatValue];
+    UIImageView *backImageView = [info objectForKey:@"backImageView"];
     
     if (adUnitId == nil) {
         NSError *error = [NSError splashErrorWithCode:MobiSplashAdErrorNoAdsAvailable localizedDescription:@"posid cannot be nil"];
