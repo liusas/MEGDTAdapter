@@ -86,24 +86,22 @@ typedef NS_ENUM(NSInteger, GDTAdapterErrorCode) {
 
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        dispatch_async(dispatch_get_main_queue(), ^{
-            NSString *appid = configuration[kGDTAppID];
-            BOOL result = [GDTSDKConfig registerAppId:kGDTAppID];
-            if (result) {
-                if (complete != nil) {
-                    complete(nil);
-                }
-            } else {
-                NSError *error = [NSError
-                                  errorWithDomain:MobiRewardedVideoAdsSDKDomain
-                                  code:MobiRewardedVideoAdErrorNoAdReady
-                                  userInfo:@{NSLocalizedDescriptionKey : @"Rewarded ad is not ready to be presented."}];
-                
-                if (complete != nil) {
-                    complete(error);
-                }
+        NSString *appid = configuration[kGDTAppID];
+        BOOL result = [GDTSDKConfig registerAppId:kGDTAppID];
+        if (result) {
+            if (complete != nil) {
+                complete(nil);
             }
-        });
+        } else {
+            NSError *error = [NSError
+                              errorWithDomain:MobiRewardedVideoAdsSDKDomain
+                              code:MobiRewardedVideoAdErrorNoAdReady
+                              userInfo:@{NSLocalizedDescriptionKey : @"Rewarded ad is not ready to be presented."}];
+            
+            if (complete != nil) {
+                complete(error);
+            }
+        }
     });
 }
 
