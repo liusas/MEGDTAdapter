@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MEGDTAdapter'
-  s.version          = '1.0.11'
+  s.version          = '1.0.12'
   s.summary          = 'A adapter of GDT for mediation SDK'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency "GDTMobSDK", "~> 4.11.11"
-  s.dependency "MEAdvSDK", '~> 1.0.17'
+  s.dependency "MEAdvSDK", '~> 1.0.22'
   
 end

@@ -135,8 +135,8 @@
 }
 
 - (void)nativeExpressAdViewClosed:(GDTNativeExpressAdView *)nativeExpressAdView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(nativeExpressAdViewDidClosedCustomEvent:)]) {
-        [self.delegate nativeExpressAdViewDidClosedCustomEvent:nativeExpressAdView];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(nativeExpressAdViewClosedForCustomEvent:)]) {
+        [self.delegate nativeExpressAdViewClosedForCustomEvent:nativeExpressAdView];
     }
 }
 
