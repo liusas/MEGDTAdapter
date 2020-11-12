@@ -82,6 +82,10 @@ typedef NS_ENUM(NSInteger, GDTAdapterErrorCode) {
     return NSClassFromString(@"MobiGDTFullscreenCustomEvent");
 }
 
+- (Class)getDrawViewCustomEvent {
+    return NSClassFromString(@"MobiGDTDrawViewCustomEvent");
+}
+
 - (void)initializeNetworkWithConfiguration:(NSDictionary<NSString *,id> *)configuration complete:(void (^)(NSError * _Nullable))complete {
 
     static dispatch_once_t onceToken;
